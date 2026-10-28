@@ -1,0 +1,33 @@
+# --- Resultados pesados de simulacion (van a la carpeta en la nube) ---
+sims/
+evo/sims/
+exp4_EDP/mcpat/
+m5out/
+results/exp1_pipeline/*_stats.txt
+results/exp1_pipeline/*_config.ini
+results/exp1_pipeline/*_config.json
+results/exp1_pipeline/*_simout.txt
+
+# --- Salidas de los workloads ---
+*.wav
+*.pgm
+
+# --- Archivos generados por McPAT / conversor ---
+config.xml
+mcpat_out.txt
+
+# --- Build de gem5 y binarios ---
+build/
+mcpat/
+
+# --- Python / Jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Sistema / editores ---
+.DS_Store
+.vscode/
+*.swp
