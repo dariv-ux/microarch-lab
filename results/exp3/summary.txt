@@ -1,0 +1,33 @@
+Evaluaciones validas: 611 | generaciones completadas: 26
+
+== Top 3 - Mejor RENDIMIENTO (CPI minimo) ==
+  1. l1i_size=64kB, l1d_size=32kB, l2_size=256kB, l1i_assoc=4, l1d_assoc=2, l2_assoc=16, front_width=8, issue_width=8, commit_width=8, iq_entries=64, rob_entries=192, lq_entries=68, sq_entries=72, btb_entries=8192
+      CPI=0.6930  Power=3.436 W  Energy=2.3813  EDP=1.6502
+  2. l1i_size=32kB, l1d_size=32kB, l2_size=256kB, l1i_assoc=8, l1d_assoc=2, l2_assoc=4, front_width=8, issue_width=8, commit_width=8, iq_entries=64, rob_entries=192, lq_entries=96, sq_entries=72, btb_entries=8192
+      CPI=0.6946  Power=3.502 W  Energy=2.4324  EDP=1.6896
+  3. l1i_size=32kB, l1d_size=32kB, l2_size=256kB, l1i_assoc=8, l1d_assoc=2, l2_assoc=4, front_width=8, issue_width=8, commit_width=8, iq_entries=64, rob_entries=192, lq_entries=68, sq_entries=72, btb_entries=8192
+      CPI=0.6953  Power=3.494 W  Energy=2.4292  EDP=1.6890
+
+== Top 3 - Mejor ENERGIA (Energy minima) ==
+  1. l1i_size=64kB, l1d_size=32kB, l2_size=128kB, l1i_assoc=2, l1d_assoc=2, l2_assoc=8, front_width=4, issue_width=4, commit_width=8, iq_entries=48, rob_entries=128, lq_entries=48, sq_entries=32, btb_entries=8192
+      CPI=0.7542  Power=2.812 W  Energy=2.1208  EDP=1.5996
+  2. l1i_size=64kB, l1d_size=32kB, l2_size=128kB, l1i_assoc=2, l1d_assoc=2, l2_assoc=8, front_width=4, issue_width=4, commit_width=8, iq_entries=48, rob_entries=128, lq_entries=48, sq_entries=48, btb_entries=8192
+      CPI=0.7539  Power=2.820 W  Energy=2.1259  EDP=1.6028
+  3. l1i_size=64kB, l1d_size=32kB, l2_size=128kB, l1i_assoc=2, l1d_assoc=2, l2_assoc=4, front_width=4, issue_width=4, commit_width=8, iq_entries=48, rob_entries=128, lq_entries=48, sq_entries=32, btb_entries=8192
+      CPI=0.7626  Power=2.791 W  Energy=2.1282  EDP=1.6230
+
+== Top 3 - Mejor EDP (EDP minimo) ==
+  1. l1i_size=64kB, l1d_size=32kB, l2_size=128kB, l1i_assoc=4, l1d_assoc=2, l2_assoc=4, front_width=6, issue_width=6, commit_width=8, iq_entries=64, rob_entries=128, lq_entries=48, sq_entries=32, btb_entries=8192
+      CPI=0.7091  Power=3.090 W  Energy=2.1912  EDP=1.5539
+  2. l1i_size=64kB, l1d_size=32kB, l2_size=128kB, l1i_assoc=4, l1d_assoc=2, l2_assoc=4, front_width=6, issue_width=6, commit_width=8, iq_entries=48, rob_entries=128, lq_entries=48, sq_entries=32, btb_entries=8192
+      CPI=0.7111  Power=3.076 W  Energy=2.1870  EDP=1.5551
+  3. l1i_size=64kB, l1d_size=32kB, l2_size=128kB, l1i_assoc=4, l1d_assoc=2, l2_assoc=8, front_width=6, issue_width=6, commit_width=8, iq_entries=48, rob_entries=128, lq_entries=48, sq_entries=32, btb_entries=8192
+      CPI=0.7111  Power=3.076 W  Energy=2.1872  EDP=1.5553
+
+Config por defecto A76: CPI=0.9061 Energy=2.3656 EDP=2.1434
+
+== Velocidades ==
+gem5 : 763.6 s/sim (hostSeconds) | pared 764.3 s | total 129.60 h
+McPAT: 37.50 s/sim | total 381.89 min
+Conversor: 0.15 s/sim | total 1.58 min
+Tiempo real de esta tanda: 4.66 h

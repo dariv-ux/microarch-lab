@@ -1,0 +1,33 @@
+Simulaciones procesadas: 1024
+
+== Top 3 - Mejor RENDIMIENTO (CPI minimo) ==
+  1. l1d_size=128kB, l2_size=512kB, num_fu_intALU=3, iq_entries=64, rob_entries=192
+      CPI=0.7498  Power=3.196 W  Energy=2.3963  EDP=1.7968
+  2. l1d_size=128kB, l2_size=512kB, num_fu_intALU=3, iq_entries=64, rob_entries=256
+      CPI=0.7498  Power=3.228 W  Energy=2.4202  EDP=1.8147
+  3. l1d_size=128kB, l2_size=1MB, num_fu_intALU=3, iq_entries=64, rob_entries=192
+      CPI=0.7498  Power=3.235 W  Energy=2.4256  EDP=1.8187
+
+== Top 3 - Mejor ENERGIA (Energy minima) ==
+  1. l1d_size=64kB, l2_size=128kB, num_fu_intALU=1, iq_entries=32, rob_entries=64
+      CPI=0.7840  Power=2.828 W  Energy=2.2173  EDP=1.7383
+  2. l1d_size=64kB, l2_size=128kB, num_fu_intALU=4, iq_entries=32, rob_entries=64
+      CPI=0.7810  Power=2.842 W  Energy=2.2194  EDP=1.7334
+  3. l1d_size=64kB, l2_size=128kB, num_fu_intALU=3, iq_entries=32, rob_entries=64
+      CPI=0.7810  Power=2.843 W  Energy=2.2200  EDP=1.7338
+
+== Top 3 - Mejor EDP (EDP minimo) ==
+  1. l1d_size=64kB, l2_size=128kB, num_fu_intALU=4, iq_entries=48, rob_entries=128
+      CPI=0.7508  Power=2.986 W  Energy=2.2422  EDP=1.6834
+  2. l1d_size=64kB, l2_size=128kB, num_fu_intALU=3, iq_entries=48, rob_entries=128
+      CPI=0.7508  Power=2.987 W  Energy=2.2427  EDP=1.6838
+  3. l1d_size=64kB, l2_size=128kB, num_fu_intALU=4, iq_entries=64, rob_entries=128
+      CPI=0.7508  Power=2.990 W  Energy=2.2452  EDP=1.6856
+
+Rango de potencia: 2.491 W - 3.267 W
+
+== Velocidades ==
+gem5  : 687.1 s por simulacion | total 195.44 h (suma de hostSeconds)
+McPAT : 41.32 s por simulacion | total 705.27 min (suma)
+Conversor gem5->McPAT: 0.18 s por simulacion | total 3.15 min (suma)
+Tiempo real de esta ejecucion del experimento 4: 97.07 min
